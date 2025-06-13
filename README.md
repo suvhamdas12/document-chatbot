@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2b05c7dd-e4fd-4fae-85e1-654512b9e9e5)![image](https://github.com/user-attachments/assets/2b05c7dd-e4fd-4fae-85e1-654512b9e9e5)
+
 An intelligent document Q&A chatbot built with **FastAPI**, **React**, **LangChain**, **HuggingFace Embeddings**, and **Groq's LLMs**.
 This app allows you to upload a PDF and ask questions, with answers derived strictly from the document using **Retrieval-Augmented Generation (RAG)**.
 
