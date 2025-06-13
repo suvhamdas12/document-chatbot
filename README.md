@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/8cffdb54-1cd4-49b8-92cf-3bb0d63a0974)![image](https://github.com/user-attachments/assets/8cffdb54-1cd4-49b8-92cf-3bb0d63a0974)![image](https://github.com/user-attachments/assets/a053027f-0261-4927-b74e-a01381ff680b)![image](https://github.com/user-attachments/assets/a053027f-0261-4927-b74e-a01381ff680b)# 📄 Document ChatBot (RAG + ChromaDB + Groq)
-
+![image](https://github.com/user-attachments/assets/2b05c7dd-e4fd-4fae-85e1-654512b9e9e5)![image](https://github.com/user-attachments/assets/2b05c7dd-e4fd-4fae-85e1-654512b9e9e5)
 An intelligent document Q&A chatbot built with **FastAPI**, **React**, **LangChain**, **HuggingFace Embeddings**, and **Groq's LLMs**.
 This app allows you to upload a PDF and ask questions, with answers derived strictly from the document using **Retrieval-Augmented Generation (RAG)**.
 
