@@ -56,14 +56,11 @@ def extract_text_from_pdf(pdf_path):
         text += f"\n\nPage {i+1}:\n" + ocr_text
     print("Full extracted text:\n", text[:500])
     return text
-
-
-
-# === Endpoint to upload a PDF and process it ===
+    
 @app.post("/upload_pdf/")
 async def upload_pdf(file: UploadFile = File(...)):
     try:
-        # Save the uploaded file
+        # Save the file
         os.makedirs(UPLOAD_DIR, exist_ok=True)
         file_path = os.path.join(UPLOAD_DIR, file.filename)
         with open(file_path, "wb") as f:
@@ -88,7 +85,6 @@ async def upload_pdf(file: UploadFile = File(...)):
     except Exception as e:
         return {"error": str(e)}
 
-# === Endpoint to ask questions ===
 @app.get("/ask/")
 async def ask_question(question: str):
     try:
