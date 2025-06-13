@@ -28,7 +28,7 @@ VECTOR_DB_DIR = "db"
 UPLOAD_DIR = "uploaded_files"
 
 # Set your Groq API key (or load from .env)
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "************"
 
 # === Utility to extract text from a PDF using PyMuPDF ===
 from pdf2image import convert_from_path
